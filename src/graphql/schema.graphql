@@ -1,0 +1,39 @@
+scalar Date
+
+type Query {
+  character(id: Int!): Character
+  characters(ids: [Int!]): [Character!]!
+  characters_count: Int!
+  average_character_age: Float!
+  average_nemesis_age: Float!
+  average_character_weight: Float!
+}
+
+type Character {
+  id: Int!
+  name: String!
+  gender: String
+  ability: String!
+  minimal_distance: String!
+  weight: String
+  born: Date!
+  in_space_since: Date
+  beer_consumption: Int!
+  knows_the_answer: Boolean!
+  nemeses: [Nemesis]!
+}
+
+type Nemesis {
+  is_alive: Boolean!
+  years: Int
+  id: Int!
+  character_id: Int
+  secrets: [Secret]!
+}
+
+type Secret {
+  id: Int!
+  secret_code: String!
+  nemesis_id: Int!
+}
+

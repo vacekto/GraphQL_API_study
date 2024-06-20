@@ -1,0 +1,7 @@
+{
+    "watch": [
+        "src/**/*"
+    ],
+    "ext": "ts,graphql",
+    "exec": "npm run codegen && ts-node src/index.ts"
+}
