@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t panda-api .
+docker build -t koala-api .
