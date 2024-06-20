@@ -15,3 +15,8 @@ The whole task took me about 20 to 25 hours and leaves much to be desired. Like 
 
 # Takeaway
 Main takeaway is not to get sidetracked. Instructions specificelly mentioned not to strive for perfectionism, but simple get the job done to working version in as little time as possible. This is generally my weakness, one on which I will work in the future
+
+# to run (linux and bash required)
+- clone repo
+- run ./bin/build.sh
+- run ./bin/run.sh
