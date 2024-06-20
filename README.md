@@ -1,4 +1,4 @@
-Panda GraphQL assignment
+Koala GraphQL assignment
 
 # About
 Simple Graphql Typescript API. To be honest, this task took me longer then I would like. While I new basic contepts, for example that GraphQL lets users select any prop in a single request, I bashed (pun unintended) my head on all sorts of problems, from setting up environment, to remebering SQL queries to best approach to file structure, simply because I had never tried to build GraphQL api up until now. 
